@@ -30,6 +30,8 @@ function doNavig(direction){
 
 
 
+
+
 $('.other').click(function () {
   $("html, body").animate({
       scrollTop: 261

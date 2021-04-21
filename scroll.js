@@ -20,7 +20,7 @@ $.fn.is_on_screen = function(){
 };
 
 
-$(window).on("scroll resize", function(){ // bind window scroll event
+$(window).on("scroll resize touchmove touchstart touchend swipe", function(){ // bind window scroll event
  
 if( $('#stopper1').length > 0 ) { // if target element exists in DOM
   if( $('#stopper1').is_on_screen() ) { // if target element is visible on screen after DOM loaded
@@ -28,9 +28,8 @@ if( $('#stopper1').length > 0 ) { // if target element exists in DOM
        var topPos = $("#stopper1").offset().top;
        var winHeight = $(window).height();
  
-       $("html, body").animate({
-            scrollTop: topPos - winHeight +1
-       }, 0);
+       $("html, body").scrollTop(topPos - winHeight
+       );
     
   } else if ( $('#stopper2').length > 0 ) { // if target element exists in DOM
     if( $('#stopper2').is_on_screen() ) { // if target element is visible on screen after DOM loaded
@@ -76,8 +75,7 @@ if( $('#stopper1').length > 0 ) { // if target element exists in DOM
          scrollTop: topPos - winHeight
     }, 0);
 }else{  
-  //$("html, body").stop(true,false); 
- // $('html, body').bind('touchmove, touchstart, touchend', false);
+
 
 }
 }
@@ -112,7 +110,7 @@ $.fn.is_on_screen = function(){
 };
 
 
-$(window).on("scroll resize", function(){ // bind window scroll event
+$(window).on("scroll resize touchmove touchstart touchend swipe", function(){ // bind window scroll event
  
 if( $('#stopper4').length > 0 ) { // if target element exists in DOM
   if( $('#stopper4').is_on_screen() ) { // if target element is visible on screen after DOM loaded
