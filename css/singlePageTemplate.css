@@ -897,14 +897,15 @@ width:100%;}
 .mnav ul li:hover {
   color: #7D2172;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.66);}  
-
+  #homecontent {
+	padding:14vh 11vw 0px 5vw;}
   #own1, #own2 {
 	flex:100%;
 		height:auto;
 		margin:2px;
 	  }
 	
-	  #menus{padding:9vh 11vw 0px 5vw; color: #441D46;}
+	  #menus{padding:14vh 11vw 0px 5vw; color: #441D46;}
 .menucontent {
 	display:flex;
 	position: relative;
@@ -1033,7 +1034,7 @@ margin:2vw 0 .2vw 0;
 
 }
 #gardencontent {
-	padding:10vh 11vw 0px 5vw;}
+	padding:14vh 11vw 0px 5vw;}
 .gardeninfo {
 	line-height: 4vh; 
 	padding:0 10vw 3vw 10vw; 
@@ -1081,13 +1082,13 @@ margin:2vw 0 .2vw 0;
 	right:5px;
 	}
 	#photocontent {
-		padding:10vh 11vw 0px 5vw;}
+		padding:14vh 11vw 0px 5vw;}
 	.photoinfo {
 		line-height: 3vh; 
 
 		padding:0 1vw 2vw 1vw; }
 		#boutiquecontent {
-			padding:10vh 11vw 0px 5vw;}
+			padding:14vh 11vw 0px 5vw;}
 		.boutiquep {
 			display: flex;
 			flex-wrap: wrap;
@@ -1132,5 +1133,5 @@ margin:2vw 0 .2vw 0;
 		
 		}
 		#locationcontent {
-			padding:10vh 11vw 0px 5vw;}
+			padding:14vh 11vw 0px 5vw;}
 }
