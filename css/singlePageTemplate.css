@@ -735,7 +735,7 @@ footer {
 ;
 	box-shadow: 0 4px 7px -1px rgba(122, 51, 105, 0.623);}
 #navbar {
-position:relative;
+
 text-align:left;
 height: 50px;
 background-color: #ed89aa;
@@ -866,6 +866,7 @@ label {
 	width: 100%;
 	min-height: 50vh;
 	
+	
 
 	background-color: #ed89aa;
 	-webkit-transition: opacity 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -875,8 +876,8 @@ label {
 
 	letter-spacing: .1vw;
 	text-transform: uppercase;
-	font-size: 3vw;
-	
+	font-size: 3.5vw;
+	font-weight: bold;
 
 	transition: all 0.1s linear;
 	
@@ -903,7 +904,7 @@ width:100%;}
 		margin:2px;
 	  }
 	
-
+	  #menus{padding:9vh 11vw 0px 5vw; color: #441D46;}
 .menucontent {
 	display:flex;
 	position: relative;
@@ -1031,7 +1032,8 @@ margin:2vw 0 .2vw 0;
    transition: all 1s ease-in-out;
 
 }
-
+#gardencontent {
+	padding:10vh 11vw 0px 5vw;}
 .gardeninfo {
 	line-height: 4vh; 
 	padding:0 10vw 3vw 10vw; 
@@ -1078,12 +1080,14 @@ margin:2vw 0 .2vw 0;
 	left:5px;
 	right:5px;
 	}
+	#photocontent {
+		padding:10vh 11vw 0px 5vw;}
 	.photoinfo {
 		line-height: 3vh; 
 
 		padding:0 1vw 2vw 1vw; }
-
-		
+		#boutiquecontent {
+			padding:10vh 11vw 0px 5vw;}
 		.boutiquep {
 			display: flex;
 			flex-wrap: wrap;
@@ -1127,4 +1131,6 @@ margin:2vw 0 .2vw 0;
 			 transform:scale(1.1);
 		
 		}
+		#locationcontent {
+			padding:10vh 11vw 0px 5vw;}
 }
