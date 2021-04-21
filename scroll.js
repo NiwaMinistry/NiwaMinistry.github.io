@@ -29,7 +29,7 @@ if( $('#stopper1').length > 0 ) { // if target element exists in DOM
        var winHeight = $(window).height();
  
        $("html, body").animate({
-            scrollTop: topPos - winHeight
+            scrollTop: topPos - winHeight +1
        }, 0);
     
   } else if ( $('#stopper2').length > 0 ) { // if target element exists in DOM

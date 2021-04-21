@@ -526,7 +526,7 @@ box-shadow:0 0 3px rgba(0,0,0,0.8);
   #spacer5{height: calc(260px - 10vw); margin-bottom:5vh; }
 
   #stopper5{
-	  height: 20px; width:20px; background-color: red;}
+	  height: 20px; width:20px;}
 #access {
   background: #edc7d3;
 }
@@ -735,7 +735,7 @@ footer {
 ;
 	box-shadow: 0 4px 7px -1px rgba(122, 51, 105, 0.623);}
 #navbar {
-
+position:relative;
 text-align:left;
 height: 50px;
 background-color: #ed89aa;
