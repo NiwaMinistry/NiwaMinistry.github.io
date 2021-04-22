@@ -50,4 +50,8 @@ $(document).ready(function(){
 });
 
 
-
+hammer.bind('drag', function(ev) {
+    x = ev.position.x;
+    y = ev.position.y;
+    mosaic.style.webkitTransform = 'translate3d('+(x) +'px, '+(y) + 'px, 1px)';
+});

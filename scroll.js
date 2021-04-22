@@ -20,16 +20,19 @@ $.fn.is_on_screen = function(){
 };
 
 
-$(window).on("scroll resize touchmove touchstart touchend swipe", function(){ // bind window scroll event
+$(window).on("scroll resize DOMmousewheel", function(){ // bind window scroll event
  
 if( $('#stopper1').length > 0 ) { // if target element exists in DOM
   if( $('#stopper1').is_on_screen() ) { // if target element is visible on screen after DOM loaded
 
        var topPos = $("#stopper1").offset().top;
        var winHeight = $(window).height();
- 
-       $("html, body").scrollTop(topPos - winHeight
-       );
+
+
+       $("html, body").animate({
+            scrollTop: topPos - winHeight
+       }, 0);
+    
     
   } else if ( $('#stopper2').length > 0 ) { // if target element exists in DOM
     if( $('#stopper2').is_on_screen() ) { // if target element is visible on screen after DOM loaded
@@ -57,28 +60,10 @@ if( $('#stopper1').length > 0 ) { // if target element exists in DOM
                scrollTop: topPos - winHeight
           }, 0);
   
-} else if ( $('#stoppe5').length > 0 ) { // if target element exists in DOM
-  if( $('#stopper5').is_on_screen() ) { // if target element is visible on screen after DOM loaded
-    var topPos = $("#stopper5").offset().top;
-    var winHeight = $(window).height();
-
-    $("html, body").animate({
-         scrollTop: topPos - winHeight
-    }, 0);
-  
-} else if ( $('#stoppe6').length > 0 ) { // if target element exists in DOM
-  if( $('#stopper6').is_on_screen() ) { // if target element is visible on screen after DOM loaded
-    var topPos = $("#stopper6").offset().top;
-    var winHeight = $(window).height();
-
-    $("html, body").animate({
-         scrollTop: topPos - winHeight
-    }, 0);
 }else{  
 
 
-}
-}
+
 }
 }
     
@@ -110,7 +95,7 @@ $.fn.is_on_screen = function(){
 };
 
 
-$(window).on("scroll resize touchmove touchstart touchend swipe", function(){ // bind window scroll event
+$(window).on("scroll resize", function(){ // bind window scroll event
  
 if( $('#stopper4').length > 0 ) { // if target element exists in DOM
   if( $('#stopper4').is_on_screen() ) { // if target element is visible on screen after DOM loaded
