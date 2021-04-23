@@ -81,10 +81,11 @@ $(document).ready(function() {
   $(window).resize();
 });
 
-function handleScroll()
+$("#content").on('scroll', function() 
 {
     document.getElementById('langbtn').style.top = "-"+document.body.scrollTop+"px";
-}
+  });
+
 
 
 $(window).resize(function() {

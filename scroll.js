@@ -20,19 +20,21 @@ $.fn.is_on_screen = function(){
 };
 
 
-$(window).on("scroll resize DOMmousewheel", function(){ // bind window scroll event
+$(window).on("scroll touchstart touchend touchmove resize", function(ev){ // bind window scroll event
+  var e = ev.originalEvent;
  
 if( $('#stopper1').length > 0 ) { // if target element exists in DOM
   if( $('#stopper1').is_on_screen() ) { // if target element is visible on screen after DOM loaded
-
+   
        var topPos = $("#stopper1").offset().top;
        var winHeight = $(window).height();
-
-
+   
+       e.preventDefault();
+    
        $("html, body").animate({
             scrollTop: topPos - winHeight
-       }, 0);
-    
+       }, 1);
+       
     
   } else if ( $('#stopper2').length > 0 ) { // if target element exists in DOM
     if( $('#stopper2').is_on_screen() ) { // if target element is visible on screen after DOM loaded
@@ -61,7 +63,8 @@ if( $('#stopper1').length > 0 ) { // if target element exists in DOM
           }, 0);
   
 }else{  
-
+  //$("html, body").stop(true,false); 
+ // $('html, body').bind('touchmove, touchstart, touchend', false);
 
 
 }

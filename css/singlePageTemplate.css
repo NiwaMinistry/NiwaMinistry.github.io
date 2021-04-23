@@ -13,6 +13,7 @@ font-family: 'Noto Serif JP', serif;
 	margin-left: 0px;
 	font-style: normal;
 	font-weight: 200;
+	scroll-behavior: smooth;
 }
 
 .container {
@@ -250,6 +251,8 @@ nav ul li:hover {
 #menus{padding:8.5vh 11vw 0px 5vw; color: #441D46;}
 .menucontent {
 display:flex;
+height:100vh;
+overflow-y:scroll;
 }
 
   
@@ -359,10 +362,7 @@ display:flex;
 
 	}
 	hr.mhr {opacity:0;}
-	#spacer3{height: calc(200px - 10vw); margin-bottom:5vh; }
 
-	#stopper3{
-		height: 20px; width:20px; }
 
 
 
@@ -383,10 +383,7 @@ display:flex;
 		 }
 
 
-#spacer4{height: calc(260px - 10vw); margin-bottom:5vh; }
 
-#stopper4{
-	height: 2000px; width:20px;  }
 
 #garden {
 
@@ -409,7 +406,7 @@ display:flex;
 
 	flex-wrap: wrap;
 	width:100%;
-
+	padding-top:3vw;
 	height:46vw;
 	justify-content:center;
 	justify-items: center;
@@ -452,10 +449,7 @@ right:5px;
 
 .schedule {color: #993366; font-size: 20px; margin-top:2vw;}
 .sch {margin:2vw 0 2vw 0;}
-#spacer2{height: calc(260px - 10vw); margin-bottom:5vh; }
 
-#stopper2{
-	height: 2000px; width:20px; }
 
 #boutique {
 	background: #edc7d3;
@@ -526,10 +520,7 @@ box-shadow:0 0 3px rgba(0,0,0,0.8);
 
 
 
-  #spacer5{height: calc(260px - 10vw); margin-bottom:5vh; }
 
-  #stopper5{
-	  height: 2000px; width:20px;}
 #access {
   background: #edc7d3;
 }
@@ -580,10 +571,7 @@ padding-left:4vw;
 }
 
 
-#spacer6{height:100px; margin-bottom:5vh;}
 
-#stopper6{
-	height: 2000px; width:20px;}
 
 #home {
     text-align: center;
@@ -655,10 +643,7 @@ flex:40%;
 
 #latestnews {color:#993366;}
 
-#spacer1{height: calc(200px - 10vw); margin-bottom:5vh; }
-
-#stopper1{
-	height: 400px; width:20px; }
+#spacer1{margin-bottom:10vw;}
 
 footer {	
     bottom: 0;
@@ -913,8 +898,11 @@ width:100%;}
 .menucontent {
 	display:flex;
 	position: relative;
+	overflow-y: scroll;
 	width:100%;
-	height: fit-content;
+	height: 50vh;
+
+
 	}
 	.teasam img {width:70vw; height:auto;}
 .menuj, .menue {
@@ -1051,6 +1039,7 @@ margin:2vw 0 .2vw 0;
 		width:100%;
 	
 		height:65vw;
+		
 		justify-content:center;
 		justify-items: center;
 		
@@ -1058,7 +1047,7 @@ margin:2vw 0 .2vw 0;
 	}
 	.gardenpics {
 		
-	
+		
 		display: flex;
 		flex: 100%;
 	
