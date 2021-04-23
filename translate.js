@@ -21,6 +21,17 @@ $("#gs6").text($("#gs6").text() == 'For reservations, please phone: 080-4187-172
 
 $(".photohead").text($(".photohead").text() == '写真' ? 'Photo Gallery' : '写真');
 $(".photoinfo").text($(".photoinfo").text() == 'Use the left and right navigation buttons or swipe to scroll through the photos.' ? '写真を移動するには、「右へ移動」ボタンまたは「左へ移動」ボタンを使用します。イメージ間を移動するには、スワイプすることもできます。' : 'Use the left and right navigation buttons or swipe to scroll through the photos.');
+
+$(".locationhead").text($(".locationhead").text() == '場所' ? 'Location' : '場所');
+$(".loc1").text($(".loc1").text() == 'Contact Address' ? '連絡先' :'Contact Address');
+$(".loc2").text($(".loc2").text() == 'Location : Rose Town (Formerly, St. Floria Church)' ? '所在地：ローズタウン（旧St.フローリア教会）' : 'Location : Rose Town (Formerly, St. Floria Church)');
+$(".loc3").text($(".loc3").text() == 'Address : Tokyo-to, Ome-shi, Futamatao 1-3-1, 198-0171' ? '住所：〒198－0171　東京都青梅市二俣尾1－3－1' : 'Address : Tokyo-to, Ome-shi, Futamatao 1-3-1, 198-0171');
+$(".loc4").text($(".loc4").text() == 'Contact Information' ? 'お問い合わせ先：' : 'Contact Information');
+$(".loc5").text($(".loc5").text() == 'Phone:080－4187－1727' ? '連絡先: 080-4187-1727' : 'Phone:080－4187－1727');
+$(".loc6").text($(".loc6").text() == 'Email: rosetownjapan@gmail.com' ? 'イメール: rosetownjapan@gmail.com' : 'Email: rosetownjapan@gmail.com');
+$(".loc7").text($(".loc7").text() == 'Access' ? '交通・アクセス' : 'Access');
+$(".loc8").text($(".loc8").text() == '5 minute walk from Hinatawada train station (Ome Line towards Okutama)' ? '青梅線の日向和田駅（奥多摩方面）から徒歩5分' : '5 minute walk from Hinatawada train station (Ome Line towards Okutama)');
+
 });
 });
 
