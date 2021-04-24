@@ -64,14 +64,14 @@
   </label>
   <div class="mnav">
     <ul>
-    <li frame="0" class="nav active-state"></a>HOME • ホーム</li>
+    <li frame="0" id="hb" class="nav active-state"></a>HOME • ホーム</li>
 
-    <li frame="1" class="nav other"></a>TEA GARDEN • ティーガーデン</li>
+    <li frame="1" id="gb"class="nav other 1"></a>TEA GARDEN • ティーガーデン</li>
 
-    <li frame="2" class="nav other"></a>MENU • メニュー</li>
-    <li frame="3" class="nav other"></a>GALLERY • 写真</li>
-    <li frame="4" class="nav other"></a>BOUTIQUE • ブティック</li>
-    <li frame="5" class="nav other"></a>LOCATION • 場所</li>
+    <li frame="2" id="mb" class="nav other 2"></a>MENU • メニュー</li>
+    <li frame="3" id="pb" class="nav other 3"></a>GALLERY • 写真</li>
+    <li frame="4" id="bb" class="nav other 4"></a>BOUTIQUE • ブティック</li>
+    <li frame="5" id="lb" class="nav other 5"></a>LOCATION • 場所</li>
   </ul>
 </div>
 </div>
@@ -79,17 +79,17 @@
 
     <nav>
       <ul>
-        <li frame="0" class="nav active-state"></a>HOME • ホーム</li>
+        <li frame="0" id="hb" class="nav active-state"></a>HOME • ホーム</li>
 		   <li>|</li>
-        <li frame="1" class="nav other"></a>TEA GARDEN • ティーガーデン</li>
+        <li frame="1" id="gb" class="nav other 1"></a>TEA GARDEN • ティーガーデン</li>
 		    <li>|</li>
-        <li frame="2" class="nav other"></a>MENU • メニュー</li>
+        <li frame="2" id="mb" class="nav other 2"></a>MENU • メニュー</li>
 		    <li>|</li>
-		  <li frame="3" class="nav other"></a>GALLERY • 写真</li>
+		  <li frame="3" id="pb" class="nav other 3"></a>GALLERY • 写真</li>
 		    <li>|</li>
-        <li frame="4" class="nav other"></a>BOUTIQUE • ブティック</li>
+        <li frame="4" id="bb" class="nav other 4"></a>BOUTIQUE • ブティック</li>
 		    <li>|</li>
-		  <li frame="5" class="nav other"></a>LOCATION • 場所</li>
+		  <li frame="5" id="lb" class="nav other 5"></a>LOCATION • 場所</li>
       </ul>
 	  </nav>
 	</div>
@@ -103,7 +103,7 @@
     <div class="content" id="home">
 
 	  <div id="homecontent">
-		
+
 		  <h1 class="abouthead">ローズタウンについて</h1>
   
       <div class="aboutinfo">
@@ -151,7 +151,7 @@ frameborder="0" allowfullscreen class="video"></iframe>
     <div class="content" id="garden">
       
       <div id="gardencontent">
-      
+
         <h1 class="gardenhead">ティーガーデン</h1>
         <hr width="80%"/>
       
@@ -180,7 +180,7 @@ frameborder="0" allowfullscreen class="video"></iframe>
           <div class="sch" id="gs6">皆様のお越しをお待ちしています。080-4187-1727</div>
           
           <hr width="80%"/>
-          
+          <div id="spacer1"></div>
         </div>
   
     </div>
@@ -191,15 +191,15 @@ frameborder="0" allowfullscreen class="video"></iframe>
 
     <div class="content" id="teamenu">
       <div id="menus">
-      
+  
       <h1 class="teahead">ティーガーデン メニュー</h1>
       
         <hr width="80%"/>
         <br>
       <div class="menuinfo">
-      <span ><em>お客様の好みや嗜好を提供するため、アールグレイ、ダージリン、アッサム、
+      <span >お客様の好みや嗜好を提供するため、アールグレイ、ダージリン、アッサム、
         イングリッシュブレックファーストティー、ペパーミントなどのステープルの上に大きな茶選択肢を提供しています。ローズタウンティーガーデン
-      の専門の茶は、季節によって多少変化するが、あなたの好みに対応するために私たちは全力を尽くします！お客様の到着時に今月のオススメ又はお茶のいずれかの香りをかぐする機会もあります。</em></span>
+      の専門の茶は、季節によって多少変化するが、あなたの好みに対応するために私たちは全力を尽くします！お客様の到着時に今月のオススメ又はお茶のいずれかの香りをかぐする機会もあります。</span>
     
     </div>
     <br>
@@ -316,8 +316,7 @@ frameborder="0" allowfullscreen class="video"></iframe>
   
       <h5><span style="color: #800000;"><em>All items listed above can be purchased independently and prices are included in the menu. Should you have any more questions, our staff will be standing at hand and are happy to provide you with additional answers or explanations.</em></span></h5>
       <hr />
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
+    
     </div>
     <div class="menupic" id="menupic">
       <div class="menupic1">      <h2> A. Princess Heather Set ~ ¥ 2,800</h2>
@@ -363,9 +362,7 @@ frameborder="0" allowfullscreen class="video"></iframe>
     
         <h5><span><em>All items listed above can be purchased independently and prices are included in the menu. Should you have any more questions, our staff will be standing at hand and are happy to provide you with additional answers or explanations.</em></span></h5>
         <hr />
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
- 
+
     </div>
 
     </div>
@@ -373,11 +370,13 @@ frameborder="0" allowfullscreen class="video"></iframe>
     </div>
     
  </div>
+ <div id="spacer1"></div>
  </div>
 	  
 
     <div class="content" id="photo">
       <div id="photocontent">
+     
       <h1 class="photohead">写真</h1>
       <hr width="80%"/>
     
@@ -418,7 +417,7 @@ frameborder="0" allowfullscreen class="video"></iframe>
            </div>        
    </section> 
 </div>
-
+<div id="spacer1"></div>
     </div>
     
     
@@ -426,7 +425,7 @@ frameborder="0" allowfullscreen class="video"></iframe>
 
     <div class="content" id="boutique">
       <div id="boutiquecontent">
-      
+
         <h1 class="boutiquehead">ティーガーデン ブティック</h1>
         <hr width="80%"/>
         <div class="boutiquewelcome">
@@ -467,13 +466,13 @@ frameborder="0" allowfullscreen class="video"></iframe>
         
           <hr width="80%"/>
     
- 
+          <div id="spacer1"></div>
     </div>
   </div>
     
     <div class="content" id="access">
       <div id="locationcontent">
-      
+
         <h1 class="locationhead">場所</h1>
         <hr width="80%"/>
    <div class="locationinfo">
@@ -499,11 +498,13 @@ frameborder="0" allowfullscreen class="video"></iframe>
           <hr width="80%"/>
           <div class="map-responsive">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.360458648773!2d139.22589641531056!3d35.791083231546814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601924e148c61527%3A0x95cd182d89869978!2sRose%20Town%20Tea%20Garden!5e0!3m2!1sen!2sjp!4v1618992214743!5m2!1sen!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+         
+        </div>
+       
+
+
     </div>
-
-
-
-    </div>
+    <div id="spacer1"></div>
   </div>
 </section>
 <script type="text/javascript" src="nav.js"></script>
