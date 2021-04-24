@@ -474,12 +474,13 @@ right:5px;
 		text-align:center;
 		 line-height: 0vh; 
 		padding-top:1vw;
+		padding:1vw 5vw 3vw 5vw; 
 		 font-size:20px; color:#441D46;
 		 }
 	.boutiqueinfo {
 		text-align:center;
 		 line-height: 4vh; 
-		 padding:0 5vw 3vw 5vw; 
+		 padding:0 5vw 2vw 5vw; 
 		 font-size:20px; color:#993366;
 		 }
 
@@ -1096,6 +1097,22 @@ margin:2vw 0 .2vw 0;
 		padding:0 1vw 2vw 1vw; }
 		#boutiquecontent {
 			padding:14vh 11vw 0px 5vw;}
+			.boutiquehead {color:#441D46; text-align:center;}
+			.boutiquewelcome {
+				text-align:center;
+				 line-height: 0vh; 
+				padding-top:1vw;
+				padding:3vw 5vw 4vw 5vw; 
+				 font-size:20px; color:#441D46;
+				 }
+			.boutiqueinfo {
+				text-align:center;
+				 line-height: 3vh; 
+				 padding:0 5vw 2vw 5vw; 
+				 font-size:18px; color:#993366;
+				 }
+
+
 		.boutiquep {
 			display: flex;
 			flex-wrap: wrap;
