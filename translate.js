@@ -22,7 +22,11 @@ $("#gs6").text($("#gs6").text() == 'For reservations, please phone: 080-4187-172
 $(".photohead").text($(".photohead").text() == '写真' ? 'Photo Gallery' : '写真');
 $(".photoinfo").text($(".photoinfo").text() == 'Use the left and right navigation buttons or swipe to scroll through the photos.' ? '写真を移動するには、「右へ移動」ボタンまたは「左へ移動」ボタンを使用します。イメージ間を移動するには、スワイプすることもできます。' : 'Use the left and right navigation buttons or swipe to scroll through the photos.');
 
-$(".locationhead").text($(".locationhead").text() == '場所' ? 'Location' : '場所');
+$(".boutiquehead").text($(".boutiquehead").text() == 'Tea Garden Boutique' ? 'ティーガーデン ブティック' : 'Tea Garden Boutique');
+$(".boutiquewelcome").text($(".boutiquewelcome").text() == 'Welcome to the Tea Garden Boutique!' ? 'ティーガーデン ブティックへようこそ' : 'Welcome to the Tea Garden Boutique!');
+$(".boutiqueinfo").text($(".boutiqueinfo").text() == 'Our boutique sells a variety of items; such as jewelry, tea goods, Christmas decorations, Christmas cards, books, notebooks, and much more! For those interested in purchasing Tea Garden Tea, we also offer a wide selection for sale.' ? 'ティーガーデンブティックはジュエリー、ティー用品、クリスマス飾り、クリスマスカード、本、ノートなどの色々な商品があります。ティーガーデンのお茶を楽しんだ後是非ご覧ください！提供しているお茶は全てお買い求めいただけます。' : 'Our boutique sells a variety of items; such as jewelry, tea goods, Christmas decorations, Christmas cards, books, notebooks, and much more! For those interested in purchasing Tea Garden Tea, we also offer a wide selection for sale.');
+
+$(".locationhead").text($(".locationhead").text() == 'Location' ? '場所' : 'Location');
 $(".loc1").text($(".loc1").text() == 'Contact Address' ? '連絡先' :'Contact Address');
 $(".loc2").text($(".loc2").text() == 'Location : Rose Town (Formerly, St. Floria Church)' ? '所在地：ローズタウン（旧St.フローリア教会）' : 'Location : Rose Town (Formerly, St. Floria Church)');
 $(".loc3").text($(".loc3").text() == 'Address : Tokyo-to, Ome-shi, Futamatao 1-3-1, 198-0171' ? '住所：〒198－0171　東京都青梅市二俣尾1－3－1' : 'Address : Tokyo-to, Ome-shi, Futamatao 1-3-1, 198-0171');

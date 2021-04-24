@@ -450,6 +450,17 @@ right:5px;
 .schedule {color: #993366; font-size: 20px; margin-top:2vw;}
 .sch {margin:2vw 0 2vw 0;}
 
+.boutiquehead {color:#441D46;}
+.boutiquewelcome {
+	line-height: 4vh; 
+	padding:0 20vw 2vw 20vw; 
+	font-size:20px; font-weight:bold; color:#993366;
+	}
+.boutiqueinfo {
+	 line-height: 4vh; 
+	 padding:0 20vw 0vw 20vw; 
+	 font-size:18px; color:#993366;
+	 }
 
 #boutique {
 	background: #edc7d3;
@@ -562,9 +573,9 @@ box-shadow:0 0 3px rgba(0,0,0,0.8);
 
     top:0;
 
-    height:100%;
-padding-left:4vw;
-    width:90%;
+    height:80%;
+padding-left:9vw;
+    width:79%;
 
     position:absolute;
 
