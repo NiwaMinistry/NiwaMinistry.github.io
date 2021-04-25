@@ -218,7 +218,7 @@ nav ul li:hover {
 	
   position: relative;
   width: 100%;
-  height:fit-content;
+  height:100%;
  
  overflow-x: hidden;
 	overflow-y: hidden;
