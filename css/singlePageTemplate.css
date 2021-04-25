@@ -203,11 +203,11 @@ nav ul li:hover {
 	
   width: 100vw;
 	  right: calc(50vw - 480px);
-
+height:100%;
 
 	
   display: inline-block;
-  background: black;
+  background: #edc7d3;
   vertical-align: top;
   margin: 0 -2px -4vh;
   padding: 1;
@@ -757,7 +757,7 @@ background-color: #ed89aa;
 .navbar-fixed {
 width:95%;
 top: 0;
-right: 2.45vw;
+right: 2.48vw;
 z-index: 100;
 box-shadow: 0 4px 7px -1px rgba(122, 51, 105, 0.623);
 position: fixed;
