@@ -3,78 +3,84 @@ $(document).ready(function(){
   $(".nav.active-state").click(function(){
  
 
-  $('#homecontent').css('display',('block'));
 
-  $('#gardencontent').css('display',('none'));
-  $('#menus').css('display',('none'));
-  $('#photocontent').css('display',('none'));
-  $('#boutiquecontent').css('display',('none'));
-  $('#locationcontent').css('display',('none'));
+  $('#homecontent' ).fadeIn( 500);
 
+  $('#gardencontent').fadeOut( 300);
+  $('#menus').fadeOut( "slow", function() {
+  });
+  $('#photocontent').fadeOut( "slow", function() {
+  });
+  $('#boutiquecontent').fadeOut( "slow", function() {
+  });
+  $('#locationcontent').fadeOut( "slow", function() {
+  });
 });
 });
 $(document).ready(function(){
   $(".nav.other.1").click(function(){
-    $('#gardencontent').css('display',('block'));
-    
+
+
+    $('#gardencontent').fadeIn( 500);
+  
   
     
-  $('#homecontent').css('display',('none'));
-  $('#menus').css('display',('none'));
-  $('#photocontent').css('display',('none'));
-  $('#boutiquecontent').css('display',('none'));
-  $('#locationcontent').css('display',('none'));
+  $('#homecontent').fadeOut( 300);
+  $('#menus').fadeOut( 300);
+  $('#photocontent').fadeOut( 300);
+  $('#boutiquecontent').fadeOut( 300);
+  $('#locationcontent').fadeOut( 300);
 
 });
 });
 $(document).ready(function(){
   $(".nav.other.2").click(function(){
 
-    $('#menus').css('display',('block'));
+    $('#menus').fadeIn(500);
 
-  $('#homecontent').css('display',('none'));
-  $('#gardencontent').css('display',('none'));
-  $('#photocontent').css('display',('none'));
-  $('#boutiquecontent').css('display',('none'));
-  $('#locationcontent').css('display',('none'));
+
+  $('#homecontent').fadeOut( 300);
+  $('#gardencontent').fadeOut( 300);
+  $('#photocontent').fadeOut( 300);
+  $('#boutiquecontent').fadeOut( 300);
+  $('#locationcontent').fadeOut( 300);
 
 });
 });
 $(document).ready(function(){
   $(".nav.other.3").click(function(){
-    $('#photocontent').css('display',('block'));
+    $('#photocontent').fadeIn( 500);
 
-  $('#homecontent').css('display',('none'));
-  $('#gardencontent').css('display',('none'));
-  $('#menus').css('display',('none'));
-  $('#boutiquecontent').css('display',('none'));
-  $('#locationcontent').css('display',('none'));
+  $('#homecontent').fadeOut( 300);
+  $('#gardencontent').fadeOut( 300);
+  $('#menus').fadeOut( 300);
+  $('#boutiquecontent').fadeOut( 300);
+  $('#locationcontent').fadeOut( 300);
 
 });
 });
 $(document).ready(function(){
   $(".nav.other.4").click(function(){
   
-    $('#boutiquecontent').css('display',('block'));
-
-  $('#homecontent').css('display',('none'));
-  $('#gardencontent').css('display',('none'));
-  $('#menus').css('display',('none'));
-  $('#photocontent').css('display',('none'));
-  $('#locationcontent').css('display',('none'));
+    $('#boutiquecontent').fadeIn( 500);
+  
+  $('#homecontent').fadeOut( 300);
+  $('#gardencontent').fadeOut( 300);
+  $('#menus').fadeOut( 300);
+  $('#photocontent').fadeOut( 300);
+  $('#locationcontent').fadeOut( 300);
 
 });
 });
 $(document).ready(function(){
   $(".nav.other.5").click(function(){
-    $('#locationcontent').css('display',('block'));
- 
-  $('#homecontent').css('display',('none'));
-  $('#gardencontent').css('display',('none'));
-  $('#menus').css('display',('none'));
-  $('#photocontent').css('display',('none'));
-  $('#boutiquecontent').css('display',('none'));
-
+    $('#locationcontent').fadeIn( 500);
+  
+  $('#homecontent').fadeOut( 300);
+  $('#gardencontent').fadeOut( 300);
+  $('#menus').fadeOut( 300);
+  $('#photocontent').fadeOut( 300);
+  $('#boutiquecontent').fadeOut( 300);
 });
 });
 
